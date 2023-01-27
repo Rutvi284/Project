@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+         table ,th,td{
+                /* border:1px solid #000000; */
+                /* text-align: left; */
+                /* vertical-align: bottom; /*set the text to top, bottom and middle */
+        }
+
+        table{
+            width:100%;
+             border-collapse: collapse; /* table borders should be collapsed into a single border */
+            }
+
+        th,td{
+            /* height: 50px; */
+             /* padding: 15px; space between border and text-align */
+            /* border: 1px solid #ddd; */
+        }
+
+        /* tr:hover{background-color: coral;}  */
+
+        tr:nth-child(even){  /*it is use to add a background color to all even or odd table rows */
+            background-color: #f2f2f2;
+        }
+
+
+
+
+    </style>
+</head>
+
+
+<body>
+    <h2>Add a border to a table : </h2>
+    <table>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Pakar</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>$200</td>
+        </tr>
+        <tr>  
+            <td>Joe</td>
+            <td>Swanson</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Cleveland</td>
+            <td>Brown</td>
+            <td>$250</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+h1{
+    font-family: Arial;
+    color: plum;
+}
+h2{
+    color: darkred;
+    font-family: 'Times New Roman';
+}
+p{
+    font-family: georgia;
+    color: slateblue;
+    font-size: 130%;
+}
